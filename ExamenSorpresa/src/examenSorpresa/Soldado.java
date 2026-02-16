@@ -9,16 +9,9 @@ public class Soldado extends Unidad implements Atacante{
 		this.tipo = tipo;
 	
 	}
-
-	
-
-
-
 	public int calcularEfectividad() {
 		return 100 + experiencia * 10;
-		Soldado infanteria = new Soldado(1,"infanteria",0 ,0 ,15 ,0 ,100 ,100 , "infanteria");
-		
-	}
+			}
 	
 	
 	//Sobre escritura de metodos de la Interfaz
