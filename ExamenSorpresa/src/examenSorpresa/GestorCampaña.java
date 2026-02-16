@@ -22,9 +22,12 @@ public class GestorCampaña {
 	}
 
 	public Ejercito crearEjercito() {
-	    Ejercito e = new Ejercito();
-	    ejercitos.add(e);
-	    return e;
+	  for(  Ejercito e : ejercitos) {
+		  ejercitos.add(e);
+		    return e;
+	  }
+	  return null;
+	    
 	}
 
 	public void listarUnidades() {
