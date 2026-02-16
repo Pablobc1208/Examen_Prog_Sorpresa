@@ -3,10 +3,10 @@ package examenSorpresa;
 public interface Atacante {
   
 	//Métodos a implementar
-	int calcularDano();
+	public int calcularDano();
 	
-	void recibirDano (int puntos);
+	public void recibirDano (int puntos);
 	
 		
-	boolean estaOperativo();
+	public boolean estaOperativo();
 }
