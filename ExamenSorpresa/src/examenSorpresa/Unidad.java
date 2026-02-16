@@ -38,7 +38,7 @@ public abstract class Unidad implements Atacante{
 
 		Random random = new Random();
 
-		return dano = (int) (calcularFuerzaTotal(dano, dano, dano, dano)* 0.6);
+		return dano = (int) (calcularFuerzaTotal(dano, dano, dano, dano)* 0.6)+random.nextInt(10);
 	}
 
 
